@@ -1,4 +1,6 @@
-﻿namespace JulianaSosaAPIPublica
+﻿using JulianaSosaAPIPublica.Views;
+
+namespace JulianaSosaAPIPublica
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new JSApodPage();
         }
     }
 }
